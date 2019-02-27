@@ -39,9 +39,4 @@ do
     python2 exploits/filewriteexploit.py http://localhost:8081/saveSettings testfile 3vilhax0r
     sleep 30
 done
-sleep 5
-for i in {1..25}
-do
-    python2 exploits/JavaSerializationExploit/src/main/java/exploit.py
-done
 sleep 20
