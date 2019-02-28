@@ -35,8 +35,8 @@ public class PatientController {
     /*
         if (pat != null) {
           log.info("First Patient is {}", pat.toString());
-    */
     }
+    */
     
     return patientRepository.findAll();
   }
