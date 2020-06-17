@@ -91,7 +91,7 @@ public class DataLoader implements CommandLineRunner {
 
     SimpleCommandLinePropertySource ps = new SimpleCommandLinePropertySource(arg0);
     String encryptor = (String) ps.getProperty("jasypt.encryptor.password");
-    log.info("JASP Master Creds is {}", encryptor);
+    //log.info("JASP Master Creds is {}", encryptor);
 
     connectToMySQL();
 
